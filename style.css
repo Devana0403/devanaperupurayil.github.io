@@ -473,6 +473,52 @@ section:nth-child(even) { background: var(--ink-soft); }
   font-size: 0.95rem;
 }
 
+
+/* Leadership Section */
+
+.leadership-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+   gap: 2rem;
+   margin-top: 3rem;
+}
+
+.leadership-card {
+   background: rgba(255,255,255,0.04);
+   border: 1px solid rgba(255,255,255,0.08);
+   border-radius: 18px;
+   padding: 2rem;
+   transition: all 0.3s ease;
+   backdrop-filter: blur(12px);
+}
+
+.leadership-card:hover {
+   transform: translateY(-8px);
+   border-color: #14b8a6;
+}
+
+.leadership-card h3 {
+   margin-bottom: 0.4rem;
+}
+
+.leadership-card h4 {
+   color: #14b8a6;
+   margin-bottom: 1rem;
+   font-weight: 500;
+}
+
+.leadership-card ul {
+   padding-left: 1.2rem;
+}
+
+.leadership-card li {
+   margin-bottom: 0.8rem;
+   line-height: 1.6;
+}
+
+
+
+
 /* ════════════════════════════════════════════════════════
    PROJECTS
 ════════════════════════════════════════════════════════ */
